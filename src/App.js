@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./components/Home";
 import { Box} from "@mui/system";
-import { CssBaseline } from "@mui/material";
+import { Container, CssBaseline } from "@mui/material";
 import { makeStyles } from '@mui/styles';
 import coverr from "./assets/color-cover.jpg";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -36,7 +36,7 @@ function App() {
   return (
     <>
       <CssBaseline />
-    
+      
         <Router>
           <Switch>
           <Route exact path="/">
@@ -55,7 +55,7 @@ function App() {
         <TimeLine   handleOpen={handleOpen}/>
         <ContactForm open={open} handleClose={handleClose}/>
         </Router>
-      
+     
     </>
   );
 }

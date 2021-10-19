@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from './Header';
-import { CssBaseline ,Paper, Typography, Button} from "@mui/material";
+import { CssBaseline ,Paper, Typography, Button, Container} from "@mui/material";
 import coverr from "../assets/landing.jpg";
 
 
@@ -12,12 +12,13 @@ export default function Home(props) {
     return (
         <>
         <CssBaseline />
+       
         <Paper  sx={{
         position: 'relative',
         backgroundColor: 'grey.800',
         color: '#fff',
-     
-        minHeight:"110vh",
+        width:'100vw',
+        height:"100vh",
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
@@ -25,7 +26,7 @@ export default function Home(props) {
       }}>
         {<img style={{ display: 'none' }} src={coverr} alt='project' />}
         <Header />
-        <Typography color='black' fontFamily="Anton" fontWeight="bolder"paddingTop={20} fontSize={'2rem'} paddingLeft={10}>
+        <Typography color='black' fontFamily="Anton" fontWeight="bolder"paddingTop={"4%"} fontSize={'2rem'} paddingLeft={"1%"}>
           Innovative,
           <br />
           Creative 
@@ -40,6 +41,7 @@ export default function Home(props) {
          
         </Typography>
         </Paper>
+       
       
         
         
