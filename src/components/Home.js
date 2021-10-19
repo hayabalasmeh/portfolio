@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from './Header';
-import { CssBaseline ,Paper, Typography, Button, Container} from "@mui/material";
+import { CssBaseline ,Paper, Typography, Button,} from "@mui/material";
 import coverr from "../assets/landing.jpg";
 
 

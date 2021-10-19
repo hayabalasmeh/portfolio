@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@mui/styles';
 import { useEffect } from 'react';
-import { Typography, Box, Card, CardContent, Grid, Container, CardMedia, CardActions, Button } from "@mui/material";
+import { Typography, Card, CardContent,  Container, CardMedia, CardActions, Button } from "@mui/material";
 import Typed from "react-typed";
 import Particles from 'react-particles-js';
 import Aos from 'aos';

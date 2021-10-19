@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./components/Home";
 import { Box} from "@mui/system";
-import { Container, CssBaseline } from "@mui/material";
+import {  CssBaseline } from "@mui/material";
 import { makeStyles } from '@mui/styles';
 import coverr from "./assets/color-cover.jpg";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
